@@ -72,6 +72,11 @@ export default function Home() {
           </button>
         </div>
       </main>
+
+      <footer className="w-full flex flex-col justify-center items-center text-white py-2">
+        <p className="text-lg">This Site Was Made With ❤ By Farnam</p>
+        <a href="https://github.com/homfarnam/Netflix-next-auth">Github Repository</a>
+      </footer>
     </div>
   )
 }
