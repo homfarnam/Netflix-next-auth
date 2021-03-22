@@ -13,7 +13,7 @@ export default function Home() {
       className="flex flex-col items-center justify-center min-h-screen bg-black"
       style={{
         "background-image":
-          "linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(/netflix-slider.jpeg)"
+          "linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(/netflix-slider.jpg)"
       }}>
       <Head>
         <title>Netflix Clone</title>
