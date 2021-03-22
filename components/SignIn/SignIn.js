@@ -61,6 +61,17 @@ const SignIn = () => {
                 </div>
               </button>
             </div>
+
+            <div className="w-10/12 flex m-auto justify-center py-4">
+              <button
+                className="w-auto border-2 border-black rounded-md p-1"
+                onClick={() => signIn()}>
+                <div className="flex items-center">
+                  <Image src="/github-icon.svg" layout="fixed" width="30" height="30" />
+                  <span className="mx-2">Sign in with twiter</span>
+                </div>
+              </button>
+            </div>
           </div>
         </Modal.Body>
         <Modal.Footer></Modal.Footer>
